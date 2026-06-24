@@ -5,7 +5,7 @@ export const defaultDescription =
   "Osci — Audio waveform video maker. Turn your tracks and videos into stunning waveform visualizations.";
 
 export const siteUrl =
-  import.meta.env.VITE_SITE_URL ?? "https://osci-website-bay.vercel.app";
+  import.meta.env.VITE_SITE_URL ?? "https://getosci.vercel.app";
 
 export const appStoreUrl =
   import.meta.env.VITE_APP_STORE_URL ?? "https://apps.apple.com";
