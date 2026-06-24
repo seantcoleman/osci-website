@@ -5,7 +5,7 @@ export default function PulseBackground() {
       <div className="absolute inset-0 bg-[#0A080B]" />
       {/* Top-left violet radial */}
       <div
-        className="absolute -top-32 -left-32 w-[600px] h-[600px] rounded-full animate-aurora-pulse"
+        className="absolute -top-32 -left-32 w-[600px] h-[600px] rounded-full animate-aurora-pulse motion-reduce:animate-none motion-reduce:opacity-55"
         style={{
           background:
             "radial-gradient(circle, rgba(115,25,140,0.55) 0%, transparent 70%)",
@@ -13,7 +13,7 @@ export default function PulseBackground() {
       />
       {/* Bottom-right blue radial */}
       <div
-        className="absolute -bottom-32 -right-32 w-[700px] h-[700px] rounded-full animate-aurora-pulse"
+        className="absolute -bottom-32 -right-32 w-[700px] h-[700px] rounded-full animate-aurora-pulse motion-reduce:animate-none motion-reduce:opacity-45"
         style={{
           background:
             "radial-gradient(circle, rgba(13,77,140,0.45) 0%, transparent 70%)",

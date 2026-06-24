@@ -14,7 +14,7 @@ export default function Layout({ children }) {
               <BrandMark size="md" />
             </Link>
             <a
-              href="#download"
+              href="/#download"
               className="text-sm font-semibold text-white btn-gradient px-4 py-1.5 rounded-full"
             >
               Download
