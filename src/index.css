@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #0A080B;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(90deg, #FF2D8A 0%, #7B2CFF 50%, #47DBFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-gradient {
+    background: linear-gradient(90deg, #FF2D8A 0%, #7B2CFF 50%, #47DBFF 100%);
+    background-size: 200% auto;
+    transition: background-position 0.4s ease, opacity 0.2s ease;
+  }
+
+  .btn-gradient:hover {
+    background-position: right center;
+    opacity: 0.9;
+  }
+}
